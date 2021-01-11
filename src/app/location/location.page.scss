@@ -5,8 +5,16 @@ ion-toolbar {
   ion-title {
       text-align: center;
   }
+
+  ion-button {
+    --background: #f1f1f1;
+    ion-back-button: #000000;
+  }
 }
 
 ion-content {
   --background: #f1f1f1;
 }
+
+
+
