@@ -19,7 +19,8 @@ ion-content {
   ion-item {
     border-radius: 28px 28px 28px 28px;
     margin-top:60px;
-    --background: #b3b3b3;
+    --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+
     --ion-text-color: #000000;
     --ion-toolbar-border-color: #b3b3b3;
     
@@ -29,11 +30,21 @@ ion-content {
       padding: 3px;
     }
     ion-button {
-      --background: #b3b3b3;
+      --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+
     }
 
     img {
       padding: 1%;
+    }
+  }
+
+  ion-card {
+    border-radius: 28px 28px 28px 28px;
+    margin-top: 280px;
+    --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+    ion-button {
+      margin-left: 35px;
     }
   }
 }
