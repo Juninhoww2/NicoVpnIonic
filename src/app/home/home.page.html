@@ -15,8 +15,8 @@
 
 <ion-content [fullscreen]="true">
   <ion-item>
-    <img src="../../assets/estados-unidos-da-america.png" />
-    <ion-title>United States</ion-title>
+    <img src="{{logopng}}" (click)="toggleIcon();"/>
+    <ion-title>{{logoname}} </ion-title>
     <ion-button href="location" shape="round">
       <ion-icon slot="end" name="ellipse-sharp"></ion-icon>
     </ion-button>

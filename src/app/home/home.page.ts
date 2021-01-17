@@ -6,12 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {
+  constructor( 
+  ) {
   }
+
+  public logopng = "../../assets/estados-unidos-da-america.png";
+  
   toggleIcon() {
-
+    if(this.logopng=="../../assets/estados-unidos-da-america.png")
+    {
+      this.logopng="../../assets/china.png";
+    }else{
+      this.logopng = "../../assets/estados-unidos-da-america.png";
+    }
   }
+
 
   OnChange() {
     
