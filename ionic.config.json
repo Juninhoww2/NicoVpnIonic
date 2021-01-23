@@ -1,5 +1,7 @@
 {
   "name": "NicoVpn",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

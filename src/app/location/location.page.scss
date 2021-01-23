@@ -1,24 +1,24 @@
 ion-toolbar {
   --ion-text-color: #000000;
-  --background: #f1f1f1;
-  --ion-toolbar-border-color: #f1f1f1;
+  --background: #EEF1F4;
+  --ion-toolbar-border-color: #EEF1F4;
   ion-title {
       text-align: center;
   }
 
   ion-button {
-    --background: #f1f1f1;
+    --background: #EEF1F4;
     ion-back-button: #000000;
   }
 }
 
 ion-content {
-  --background: #f1f1f1;
+  --background: #EEF1F4;
 }
 
 ion-item {
-  --background: #f1f1f1;
-  --ion-item-border-color: #f1f1f1;
+  --background: #EEF1F4;
+  --ion-item-border-color: #EEF1F4;
   --ion-text-color: #000000;  
 
   ion-text {
